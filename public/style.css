@@ -1,0 +1,19 @@
+:root{
+    --colourBackground :  rgba(255, 255, 255, 0.521)
+}
+body{
+    background-image: url(../Resources/images/_bdf9fa55-3307-4a6f-b240-c454604a6bd1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* class */
+.container__all_contain{
+    background-color: var(--colourBackground);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
